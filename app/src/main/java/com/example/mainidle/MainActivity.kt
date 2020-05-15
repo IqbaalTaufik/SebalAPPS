@@ -61,6 +61,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_music ->{
                 startActivity(Intent(this,musikdanvideo::class.java))
             }
+            R.id.nav_findmi -> {
+                startActivity(Intent(this,findmee::class.java))
+            }
         }
         drawerLayout.closeDrawer(GravityCompat.START)
         return true
