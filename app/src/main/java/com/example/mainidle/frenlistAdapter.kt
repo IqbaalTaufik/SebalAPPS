@@ -8,6 +8,7 @@ import com.example.mainidle.db.dbdaili
 import com.example.mainidle.R
 import kotlinx.android.synthetic.main.activity_daily.view.*
 import kotlinx.android.synthetic.main.daily_menu.view.*
+import kotlinx.android.synthetic.main.frenlis_menu.view.*
 import kotlinx.android.synthetic.main.item_galeri.view.*
 
 class frenlistAdapter : RecyclerView.Adapter<frenlistAdapter.viewHolder>(){
@@ -33,10 +34,12 @@ class frenlistAdapter : RecyclerView.Adapter<frenlistAdapter.viewHolder>(){
     class viewHolder constructor(
         view: View
     ): RecyclerView.ViewHolder(view){
-        val image = view.ivgal
+        val image = view.ivfren
+        val title = view.tvfrenlis
 
-        fun bindaily(dbgaleri: dbfrenlist){
-            image.setImageResource(dbgaleri.imagee)
+        fun bindaily(dbgalerii: dbfrenlist){
+            image.setImageResource(dbgalerii.imagee)
+            title.text = (dbgalerii.nama)
         }
     }
 }
