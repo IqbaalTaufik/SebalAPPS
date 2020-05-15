@@ -10,7 +10,10 @@ import android.view.ViewGroup
 import android.widget.Button
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.fragment_hal3.*
-
+//NIM : 10117188
+//KELAS : IF-5
+//NAMA : MUHAMMAD IQBAL TAUFIK
+//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020
 /**
  * A simple [Fragment] subclass.
  */

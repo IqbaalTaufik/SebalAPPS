@@ -11,7 +11,10 @@ import kotlinx.android.synthetic.main.daily_menu.view.*
 import kotlinx.android.synthetic.main.frenlis_menu.view.*
 import kotlinx.android.synthetic.main.item_galeri.view.*
 import kotlinx.android.synthetic.main.musik_menu.view.*
-
+//NIM : 10117188
+//KELAS : IF-5
+//NAMA : MUHAMMAD IQBAL TAUFIK
+//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020
 class musikAdapter : RecyclerView.Adapter<musikAdapter.viewHolder>(){
     private var isian : List<dbmusik> = ArrayList()
 

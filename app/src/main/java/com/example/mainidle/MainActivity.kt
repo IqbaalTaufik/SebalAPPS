@@ -10,7 +10,10 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
-
+//NIM : 10117188
+//KELAS : IF-5
+//NAMA : MUHAMMAD IQBAL TAUFIK
+//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     lateinit var toolbar: Toolbar
@@ -54,6 +57,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_friendlist -> {
                 startActivity(Intent(this,frenlis::class.java))
+            }
+            R.id.nav_music ->{
+                startActivity(Intent(this,musikdanvideo::class.java))
             }
         }
         drawerLayout.closeDrawer(GravityCompat.START)

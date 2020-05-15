@@ -8,7 +8,10 @@ import com.example.mainidle.db.dbdaili
 import com.example.mainidle.R
 import kotlinx.android.synthetic.main.activity_daily.view.*
 import kotlinx.android.synthetic.main.daily_menu.view.*
-
+//NIM : 10117188
+//KELAS : IF-5
+//NAMA : MUHAMMAD IQBAL TAUFIK
+//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020
 class DailiAdapter: RecyclerView.Adapter<DailiAdapter.viewHolder>(){
     private var isian : List<dbdaili> = ArrayList()
 

@@ -24,6 +24,11 @@
             android:icon="@drawable/ic_friends"
             />
         <item
+            android:id="@+id/nav_music"
+            android:title="Musik"
+            android:icon="@drawable/ic_music_note"
+            />
+        <item
             android:id="@+id/nav_galeri"
             android:title="Gallery"
             android:icon="@drawable/ic_location_on"

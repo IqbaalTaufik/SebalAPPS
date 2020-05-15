@@ -7,7 +7,10 @@ import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_frenlis.*
 import kotlinx.android.synthetic.main.activity_r_cgaleri.*
-
+//NIM : 10117188
+//KELAS : IF-5
+//NAMA : MUHAMMAD IQBAL TAUFIK
+//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020
 class frenlis : AppCompatActivity() {
     private lateinit var dbfren : frenlistAdapter
     private lateinit var bett : Button

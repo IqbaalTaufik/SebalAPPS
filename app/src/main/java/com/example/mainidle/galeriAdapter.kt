@@ -9,7 +9,10 @@ import com.example.mainidle.R
 import kotlinx.android.synthetic.main.activity_daily.view.*
 import kotlinx.android.synthetic.main.daily_menu.view.*
 import kotlinx.android.synthetic.main.item_galeri.view.*
-
+//NIM : 10117188
+//KELAS : IF-5
+//NAMA : MUHAMMAD IQBAL TAUFIK
+//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020
 class galeriAdapter : RecyclerView.Adapter<galeriAdapter.viewHolder>(){
     private var isian : List<DataGaeri> = ArrayList()
 

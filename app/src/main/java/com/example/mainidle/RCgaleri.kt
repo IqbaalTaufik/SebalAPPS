@@ -6,7 +6,10 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_r_cgaleri.*
-
+//NIM : 10117188
+//KELAS : IF-5
+//NAMA : MUHAMMAD IQBAL TAUFIK
+//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020
 class RCgaleri : AppCompatActivity() {
 private lateinit var dbgaleri : galeriAdapter
     private lateinit var bett : Button

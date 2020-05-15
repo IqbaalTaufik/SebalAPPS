@@ -3,7 +3,10 @@ package com.example.mainidle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-
+//NIM : 10117188
+//KELAS : IF-5
+//NAMA : MUHAMMAD IQBAL TAUFIK
+//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020
 class MyPagerAdapter (fm : FragmentManager): FragmentPagerAdapter(fm){
     private val pages = listOf(
         hal1Fragment(),
