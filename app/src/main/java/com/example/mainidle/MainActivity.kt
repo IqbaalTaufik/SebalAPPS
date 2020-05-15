@@ -46,6 +46,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_activiti -> {
                 startActivity(Intent(this,daily::class.java))
             }
+            R.id.nav_galeri -> {
+                startActivity(Intent(this,RCgaleri::class.java))
+            }
+            R.id.nav_contacts -> {
+                startActivity(Intent(this,contacts::class.java))
+            }
         }
         drawerLayout.closeDrawer(GravityCompat.START)
         return true

@@ -19,6 +19,11 @@
             android:icon="@drawable/ic_accessibility"
             />
         <item
+            android:id="@+id/nav_galeri"
+            android:title="Gallery"
+            android:icon="@drawable/ic_location_on"
+            />
+        <item
             android:id="@+id/nav_contacts"
             android:icon="@drawable/ic_contacts"
             android:title="Contact"
