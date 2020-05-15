@@ -7,13 +7,48 @@
     android:background="@color/merahp2"
     tools:context=".datadiri">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/merahp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/batt"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:background="@drawable/abc_vector_test" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:fontFamily="@font/p5hatty"
+                android:text="Profile"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="730dp"
+        android:layout_height="690dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:fitsSystemWindows="true"
@@ -22,39 +57,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/merahp"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center_vertical">
-
-                <Button
-                    android:id="@+id/batt"
-                    android:layout_width="60dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/abc_vector_test"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Profile"
-                    android:layout_marginStart="14dp"
-                    android:textColor="#FFFFFF"
-                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
-                    android:fontFamily="@font/p5hatty"
-                    android:textSize="28dp"/>
-
-            </LinearLayout>
-        </androidx.appcompat.widget.Toolbar>
 
 
         <de.hdodenhof.circleimageview.CircleImageView
