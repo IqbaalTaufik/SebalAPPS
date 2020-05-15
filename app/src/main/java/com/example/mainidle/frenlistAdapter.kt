@@ -35,8 +35,8 @@ class frenlistAdapter : RecyclerView.Adapter<frenlistAdapter.viewHolder>(){
     ): RecyclerView.ViewHolder(view){
         val image = view.ivgal
 
-        fun bindaily(dbgaleri: DataGaeri){
-            image.setImageResource(dbgaleri.image)
+        fun bindaily(dbgaleri: dbfrenlist){
+            image.setImageResource(dbgaleri.imagee)
         }
     }
 }

@@ -19,6 +19,11 @@
             android:icon="@drawable/ic_accessibility"
             />
         <item
+            android:id="@+id/nav_friendlist"
+            android:title="Friend List"
+            android:icon="@drawable/ic_friends"
+            />
+        <item
             android:id="@+id/nav_galeri"
             android:title="Gallery"
             android:icon="@drawable/ic_location_on"

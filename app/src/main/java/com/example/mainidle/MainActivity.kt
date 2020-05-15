@@ -52,6 +52,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_contacts -> {
                 startActivity(Intent(this,contacts::class.java))
             }
+            R.id.nav_friendlist -> {
+                startActivity(Intent(this,frenlis::class.java))
+            }
         }
         drawerLayout.closeDrawer(GravityCompat.START)
         return true
