@@ -1,6 +1,4 @@
 package com.example.mainidle.db
-
-import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 data class dbdaili(
