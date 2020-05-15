@@ -19,9 +19,6 @@ class daily : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_daily)
-        betn = findViewById(R.id.batt)
-        betn.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
             val data = dbdaili.setData()
             daili = DailiAdapter()
             daili.setDailyAdapter(data)
@@ -31,6 +28,9 @@ class daily : AppCompatActivity() {
                 //,GridLayoutManager,2
                 this.adapter = daili
             }
+        betn = findViewById(R.id.batt)
+        betn.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 }
