@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SbalApps</string>
+    <string name="utama">MainMenu</string>
+    <string name="h1">Hai,Saya Iqbal</string>
+    <string name="kenalan">Ini adalah Aplikasi Saya </string>
+
+    //biodata
+    <string name="nama">Muhammad Iqbal Taufik</string>
+    <string name="deskripsi">Nama panggilan iqbal, Hobi ngoding dan main game,
+    bahasa pemograman yang pernah di pelajari adalah Java, Python, dan Kotlin.
+    pacar alhamdulillah baru satu, maksudnya udah satu dan saya masih kuliah.</string>
+    <string name="nmr"><b>Phone Number : 082211013420</b></string>
+    <string name="imel"><a href="https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSDbFjvqJMWMHFHSQJkhRwXgBKbBxhlKkMKTzmxpvgVLSHgdwLDsmCnKWrZFWJjqSHmggpsq" /><b>Gmail : Pudge.warcraft3@gmail.com</b></string>
+    <string name="instag"><a href="https://www.instagram.com/iqbaal_taufik/" /><b>IG : iqbaal_taufik </b></string>
+    <string name="githap"><a href="https://github.com/IqbaalTaufik" /><b>GitHub : IqbaalTaufik</b></string>
+
+    //interes
+    <string name="judul"><b>INTEREST</b></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hai</string>
+    <string name="hello_blank_fragment2">kamu</string>
+    <string name="hello_blank_fragment3">iya kamu</string>
+
+    //random
+    <string name="tek2">Aplikasi ini tentang saya,silahkan pilih menu di samping</string>
+</resources>
