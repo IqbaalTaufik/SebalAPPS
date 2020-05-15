@@ -8,7 +8,8 @@ import kotlinx.android.synthetic.main.activity_wolktru.*
 //NIM : 10117188
 //KELAS : IF-5
 //NAMA : MUHAMMAD IQBAL TAUFIK
-//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020 
+//TGL PENGERJAAN : 05-05-2020 S/D 15-05-2020
+
 class wolktru : AppCompatActivity() {
     private lateinit var betn : Button
     override fun onCreate(savedInstanceState: Bundle?) {
